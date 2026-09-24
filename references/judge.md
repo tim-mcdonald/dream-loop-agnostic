@@ -7,6 +7,7 @@ Judge with a clean context each time, to keep it objective. Use the first option
 3. **Self-judge**, as a last resort: update `state.md`, then judge from the images alone without looking at code or plans. Describe the target, then the capture, then list the differences, then score. When in doubt, take the lower score.
 
 For each view target, give the judge the target, the matching capture, the previous round's capture and verdict if any, and any reference targets labeled as references. Save verdicts to `.dream-loop/verdicts/round-R-target-N.md`.
+For placement disputes, measure in pixels normalized by a stable feature, or view side-by-side crops at matched scale. Judge effect strength at the final viewing distance, not zoomed in.
 
 ## Judge prompt
 
